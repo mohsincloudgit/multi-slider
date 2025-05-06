@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Slider on single click</title>
+    <!-- slick.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section class="slider-section">
+            <div class="container">
+                <h1>Multiple Slider/Carousel using Slick-slide</h1>
+                <p>Slide any one slider and remaining slider will automatically changed as they all are synched with
+                    each other</p>
+                <div class="top-slider">
+                    <div class="slides">
+                        <div class="text-wrapper"><span>slide 1</span></div>
+                        <div class="text-wrapper"><span>slide 2</span></div>
+                        <div class="text-wrapper"><span>slide 3</span></div>
+                        <div class="text-wrapper"><span>slide 4</span></div>
+                        <div class="text-wrapper"><span>slide 5</span></div>
+                    </div>
+                </div>
+                <div class="middle-slider">
+                    <div class="slides" dir="rtl">
+                        <div class="text-wrapper"><span>1</span></div>
+                        <div class="text-wrapper"><span>2</span></div>
+                        <div class="text-wrapper"><span>3</span></div>
+                        <div class="text-wrapper"><span>4</span></div>
+                        <div class="text-wrapper"><span>5</span></div>
+                    </div>
+                </div>
+                <div class="three-slide-slider">
+                    <div class="slides">
+                        <div class="text-wrapper"><span>A</span></div>
+                        <div class="text-wrapper"><span>B</span></div>
+                        <div class="text-wrapper"><span>C</span></div>
+                        <div class="text-wrapper"><span>D</span></div>
+                        <div class="text-wrapper"><span>E</span></div>
+                    </div>
+                </div>
+                <div class="bottom-slider">
+                    <div class="slides">
+                        <div class="text-wrapper"><span>This is slide 1</span></div>
+                        <div class="text-wrapper"><span>This is slide 2</span></div>
+                        <div class="text-wrapper"><span>This is slide 3</span></div>
+                        <div class="text-wrapper"><span>This is slide 4</span></div>
+                        <div class="text-wrapper"><span>This is slide 5</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ******************************* Scripts ******************************* -->
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <!-- slick.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+    <!-- ******************************* End of Scripts ******************************* -->
+</body>
+
+</html>
